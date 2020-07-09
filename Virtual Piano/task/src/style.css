@@ -1,0 +1,56 @@
+body {
+    background-color: green;
+}
+
+div.container {
+    width: max-content;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.white-keys kbd {
+    font-family: 'Bangers', cursive;
+    margin-left: -4px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 300px;
+    line-height: 500px;
+    border: 3px solid grey;
+}
+
+.black-keys kbd {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 200px;
+    line-height: 300px;
+    border: 3px solid grey;
+    position:relative;
+    top: -306px;
+}
+
+#W {
+    left: 69px;
+}
+
+#E {
+    left: 106px;
+}
+
+#T {
+    left: 246px;
+}
+
+#Y {
+    left: 283px;
+}
+
+#U {
+    left: 319px;
+}
